@@ -2,7 +2,7 @@
 
 Personal academic portfolio of **Dr. Hussein El-Taibee A. Seleem**, Associate Professor of Electronics and Electrical Communications (Tanta University) and Communication and Computers Engineering (CCE) Program Coordinator at Mansoura National University (MNU).
 
-**Live site:** https://husseineltaibee.github.io
+**Live site:** https://husseineltaibee.github.io/eltaibee/
 
 ## About
 
