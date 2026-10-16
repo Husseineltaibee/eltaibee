@@ -1,192 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
+<html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Hussein El-Taibee Seleem · Photonics & Wireless Communications</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<title>Hussein El-Taibee Seleem · Faculty Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#eef2f7;--surface:#fff;--ink:#14213d;--mute:#56627a;--line:#cdd6e4;--h:200;--a:hsl(var(--h) 85% 36%);--soft:hsl(var(--h) 80% 92%);
-box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1829;--surface:#16243b;--ink:#e8eef9;--mute:#9aa8c2;--line:#2a3a56;--a:hsl(var(--h) 90% 66%);--soft:hsl(var(--h) 40% 20%)}}
-:root[data-theme="dark"]{--bg:#0e1829;--surface:#16243b;--ink:#e8eef9;--mute:#9aa8c2;--line:#2a3a56;--a:hsl(var(--h) 90% 66%);--soft:hsl(var(--h) 40% 20%)}
-html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 1.06rem/1.7 Literata,Georgia,serif;transition:background .3s}
-.w{max-width:960px;margin:0 auto;padding:0 22px}
-h1,h2,h3,.g{font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif}
-h1{font-size:clamp(2.6rem,8vw,5.2rem);line-height:1;margin:.2em 0 .25em;font-weight:800;letter-spacing:-.03em}
-h2{font-size:1.9rem;margin:0 0 .6em;font-weight:700;letter-spacing:-.02em}
-h3{font-size:1.1rem;margin:0 0 .15em}
-section{padding:56px 0;border-top:1px solid var(--line)}
-p{margin:.4em 0;max-width:68ch}.m{color:var(--mute)}
-a{color:var(--a)}
-:focus-visible{outline:3px solid var(--a);outline-offset:3px}
-header{padding:48px 0 28px}
-.lead{font-size:1.25rem;max-width:44ch}
-.scope{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 14px 18px;margin-top:26px}
-canvas{width:100%;height:170px;display:block}
-.rd{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-family:"Bricolage Grotesque",sans-serif;font-weight:700}
-.rd b{color:var(--a);font-size:1.3rem}
-input[type=range]{width:100%;accent-color:var(--a);margin:10px 0 4px}
-.ends{display:flex;justify-content:space-between;font-size:.85rem;color:var(--mute)}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 22px}
-button.c{font:600 .92rem "Bricolage Grotesque",sans-serif;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:99px;padding:6px 14px;cursor:pointer}
-button.c:hover{border-color:var(--a);background:var(--soft)}
-.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:26px 30px}
-.facts b{display:block;font:800 2.4rem/1 "Bricolage Grotesque",sans-serif;color:var(--a)}
-ol.t{list-style:none;margin:0;padding:0 0 0 22px;border-left:3px solid var(--line)}
-ol.t li{position:relative;padding:0 0 22px 8px}
-ol.t li::before{content:"";position:absolute;left:-32px;top:.5em;width:13px;height:13px;border-radius:50%;background:var(--bg);border:3px solid var(--a)}
-.y{font:700 .9rem "Bricolage Grotesque",sans-serif;color:var(--a)}
-.pub{padding:14px 0;border-bottom:1px solid var(--line)}
-.pub .v{font:700 .85rem "Bricolage Grotesque",sans-serif;color:var(--a)}
-.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
+:root{--bg:#eef2f7;--sf:#fff;--ink:#14213d;--mute:#56627a;--line:#cdd6e4;--h:200;--a:hsl(var(--h) 85% 34%);--soft:hsl(var(--h) 80% 92%);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1829;--sf:#16243b;--ink:#e8eef9;--mute:#9aa8c2;--line:#2a3a56;--a:hsl(var(--h) 90% 66%);--soft:hsl(var(--h) 40% 20%)}}
+:root[data-theme="dark"]{--bg:#0e1829;--sf:#16243b;--ink:#e8eef9;--mute:#9aa8c2;--line:#2a3a56;--a:hsl(var(--h) 90% 66%);--soft:hsl(var(--h) 40% 20%)}
+*{box-sizing:border-box}html{scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.04rem/1.65 Literata,Georgia,serif;transition:background .3s}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+h1,h2,h3,.g,nav button,th{font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif}
+.w{max-width:980px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .w{display:flex;gap:4px;overflow-x:auto;align-items:center}
+nav .logo{font:800 1.1rem "Bricolage Grotesque",sans-serif;color:var(--a);margin-right:14px;white-space:nowrap}
+nav button{background:none;border:0;border-bottom:3px solid transparent;color:var(--mute);font-weight:700;font-size:.98rem;padding:14px 12px;cursor:pointer;white-space:nowrap}
+nav button[aria-selected=true]{color:var(--ink);border-color:var(--a)}
+:focus-visible{outline:3px solid var(--a);outline-offset:2px}
+main{padding:34px 0 40px}.tab{display:none;animation:in .4s}.tab.on{display:block}
+@keyframes in{from{opacity:0;transform:translateY(8px)}}
+h1{font-size:clamp(2.4rem,7vw,4.6rem);line-height:1;margin:.15em 0;font-weight:800;letter-spacing:-.03em}
+h2{font-size:1.7rem;margin:1.6em 0 .5em;letter-spacing:-.02em}h2:first-child{margin-top:0}h3{font-size:1.08rem;margin:0}
+p{margin:.4em 0;max-width:70ch}.m{color:var(--mute)}.s{font-size:.92rem}a{color:var(--a)}
+.card{background:var(--sf);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:20px;margin:26px 0}
+.facts b{display:block;font:800 2.3rem/1 "Bricolage Grotesque",sans-serif;color:var(--a)}
+canvas{width:100%;height:150px;display:block}
+.rd{display:flex;justify-content:space-between;font:700 1rem "Bricolage Grotesque",sans-serif}.rd b{color:var(--a)}
+input[type=range]{width:100%;accent-color:var(--a)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 14px}
+.chip{font:600 .9rem "Bricolage Grotesque",sans-serif;background:var(--sf);border:1px solid var(--line);border-radius:99px;padding:5px 13px;color:var(--ink)}
+button.chip{cursor:pointer}button.chip:hover,button.chip.on{border-color:var(--a);background:var(--soft)}
+.y{font:700 .85rem "Bricolage Grotesque",sans-serif;color:var(--a)}
+table{width:100%;border-collapse:collapse;font-size:.95rem}th{text-align:left;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;color:var(--mute)}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}.tw{overflow-x:auto}
+.yr{display:flex;justify-content:space-between;flex-wrap:wrap;align-items:baseline;margin:22px 0 6px}
+.pub{padding:11px 0;border-bottom:1px solid var(--line)}.pub .y{display:block}
+input[type=search]{font:inherit;width:100%;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--sf);color:var(--ink);margin:6px 0 10px}
 ul.p{padding-left:1.1em;margin:.3em 0}
-.links{display:flex;flex-wrap:wrap;gap:12px;margin-top:14px}
-.links a{font:700 1rem "Bricolage Grotesque",sans-serif;text-decoration:none;color:var(--bg);background:var(--ink);padding:11px 20px;border-radius:10px}
-.links a:hover{background:var(--a)}
-footer{padding:30px 0 50px;color:var(--mute);font-size:.9rem}
-</style>
-</head>
-<body>
-<header class="w">
-  <p class="g m" style="margin:0">Associate Professor · Electronics & Electrical Communications</p>
-  <h1>Hussein El-Taibee Seleem</h1>
-  <p class="lead">I work on how information travels: through glass as light, and through air as millimetre waves.</p>
-  <div class="scope" role="group" aria-label="Spectrum explorer">
-    <canvas id="cv" aria-hidden="true"></canvas>
-    <div class="rd"><span id="nm">Optical fibre</span><b id="fr">193 THz</b></div>
-    <input id="sl" type="range" min="0" max="100" value="0" aria-label="Move from optical to wireless">
-    <div class="ends"><span>Optical · 1550 nm</span><span>Wireless · 60 GHz</span></div>
-    <p class="m" id="ds" style="margin-top:10px;font-size:.95rem"></p>
-  </div>
-</header>
+.links{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0}.links a{font:700 .95rem "Bricolage Grotesque",sans-serif;text-decoration:none;background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:10px}.links a:hover{background:var(--a)}
+footer{border-top:1px solid var(--line);padding:24px 0 48px;color:var(--mute);font-size:.9rem}
+</style></head><body>
+<nav><div class="w"><span class="logo">H. Seleem</span>
+<div role="tablist" style="display:flex" id="tabs"></div></div></nav>
+<main class="w">
 
-<section><div class="w">
-  <h2>Two decades, one signal</h2>
-  <div class="facts">
-    <div><b>20+</b>years in photonics and wireless telecommunications</div>
-    <div><b>71</b>papers: 50 journal articles and 21 conference papers</div>
-    <div><b>9</b>funded research projects with KACST, NPST, KSU and Lockheed Martin</div>
-    <div><b>10</b>MSc and PhD theses completed under his supervision</div>
-  </div>
-</div></section>
+<section class="tab" id="about">
+<p class="g m" style="margin:0">Associate Professor · Photonics &amp; Wireless Communications</p>
+<h1>Hussein El-Taibee Seleem</h1>
+<p style="font-size:1.2rem;max-width:46ch">I work on how information travels: through glass as light, and through air as millimetre waves.</p>
+<div class="card" style="margin-top:22px"><canvas id="cv" aria-hidden="true"></canvas>
+<div class="rd"><span id="nm"></span><b id="fr"></b></div>
+<input id="sl" type="range" min="0" max="100" value="0" aria-label="Move from optical to wireless">
+<p class="m s" style="margin:4px 0 0"><span id="ds"></span> <i>(Drag the slider; the page colour follows the spectrum.)</i></p></div>
+<div class="facts"><div><b>20+</b>years in photonics and wireless</div><div><b>71</b>papers: 50 journal, 21 conference</div><div><b>9</b>funded research projects</div><div><b>10</b>theses completed under supervision</div></div>
+<h2>About</h2>
+<p>Associate Professor in the Electronics and Electrical Communications Department at Tanta University, Egypt, where I have served since 2001. From September 2026 I also coordinate the Communication and Computers Engineering (CCE) program at the Faculty of Engineering, Mansoura National University (MNU). Earlier I held a joint post at Pharos University in Alexandria, including Acting Vice Dean for Graduate Studies and Research.</p>
+<p>I earned my BSc (first in class, with honours) and MSc at Tanta University and my PhD in Electrical Engineering at King Saud University, Riyadh (2017). Between 2010 and 2017 I was a researcher at PSATRI and KACST-TIC in Riyadh, and in 2013 I spent three months as a visiting researcher at Keysight Technologies in Böblingen, Germany.</p>
+<h2>Roles</h2>
+<div class="grid">
+<div class="card"><span class="y">Sep 2026 – now</span><h3>CCE Program Coordinator</h3><p class="m s">Faculty of Engineering, Mansoura National University</p></div>
+<div class="card"><span class="y">2023 – now</span><h3>Associate Professor</h3><p class="m s">Tanta University; Pharos University in Alexandria (2023–2026); MNU (2026–)</p></div>
+<div class="card"><span class="y">2023 – 2026</span><h3>Graduate Studies &amp; Research leadership, PUA</h3><p class="m s">Assistant to Vice Dean, then Acting Vice Dean (2024–25 and from Oct 2025)</p></div>
+<div class="card"><span class="y">Journals &amp; conferences</span><h3>Editorial and committees</h3><p class="m s">Co-founder, Pharos Engineering Science Journal; General Secretary, ICNTSE-2024; TPC member, ITC-Egypt 2024 and 2025</p></div></div>
+<h2>Career path</h2>
+<div class="tw"><table><tr><th>Years</th><th>Position</th><th>Institution</th></tr>
+<tr><td>2026–now</td><td>Associate Professor</td><td>Faculty of Engineering, MNU</td></tr>
+<tr><td>2023–2026</td><td>Associate Professor</td><td>Faculty of Engineering, Pharos University in Alexandria</td></tr>
+<tr><td>2023–now</td><td>Associate Professor</td><td>Faculty of Engineering, Tanta University</td></tr>
+<tr><td>2017–2022</td><td>Assistant Professor</td><td>Faculty of Engineering, Tanta University</td></tr>
+<tr><td>2014–2017</td><td>Researcher</td><td>KACST-TIC, King Saud University</td></tr>
+<tr><td>2010–2014</td><td>Researcher</td><td>PSATRI, King Saud University</td></tr>
+<tr><td>2006–2010</td><td>Teaching Assistant</td><td>Tanta University</td></tr>
+<tr><td>2001–2006</td><td>Demonstrator</td><td>Tanta University</td></tr></table></div>
+</section>
 
-<section><div class="w">
-  <h2>Research map</h2>
-  <p class="m">Tap a topic to move the explorer to where it lives on the spectrum.</p>
-  <h3>Light in fibre</h3>
-  <div class="chips">
-    <button class="c" data-p="0">Optical CDMA</button><button class="c" data-p="0">Space division multiplexing</button><button class="c" data-p="0">OAM &amp; few-mode fibre design</button><button class="c" data-p="0">Modulation format identification</button><button class="c" data-p="5">Free-space optical links</button><button class="c" data-p="8">Coherent &amp; non-coherent receivers</button>
-  </div>
-  <h3>Where they meet</h3>
-  <div class="chips">
-    <button class="c" data-p="50">Photonic-microwave integration</button><button class="c" data-p="45">Radio over fibre</button><button class="c" data-p="40">Photonics-based radar</button><button class="c" data-p="30">Li-Fi / visible light</button>
-  </div>
-  <h3>Waves in air</h3>
-  <div class="chips">
-    <button class="c" data-p="100">5G mmWave channel modelling</button><button class="c" data-p="100">Massive MIMO &amp; hybrid beamforming</button><button class="c" data-p="95">FBMC / UFMC / OFDM</button><button class="c" data-p="92">PAPR reduction</button><button class="c" data-p="85">AI/ML for communications</button>
-  </div>
-</div></section>
+<section class="tab" id="teaching">
+<h2>Teaching</h2>
+<p class="m">Courses by academic year and semester. Level is read from the course code (first digit). Credit hours aren't in my CV yet, so they show a dash until added.</p>
+<div id="courses"></div>
+<h2>Also taught</h2>
+<div class="chips" id="alsot"></div>
+<h2>Course development</h2>
+<ul class="p"><li>Developed and updated course files and materials for every course taught.</li><li>Helped prepare BSc curricula in Electronics &amp; Electrical Communications, Biomedical and Mechatronics Engineering at Tanta and Pharos.</li><li>Supervised graduation projects in optical communications, wireless systems and biomedical engineering.</li><li>Huawei Academy instructor for HCIA-Cloud Computing (2020, 2021).</li></ul>
+<h2>Student supervision</h2>
+<div class="tw"><table id="sup"><tr><th>Student</th><th>Thesis</th><th>Degree · Year</th></tr></table></div>
+</section>
 
-<section><div class="w">
-  <h2>Path</h2>
-  <ol class="t">
-    <li><span class="y">2023 – now</span><h3>Associate Professor, Tanta University and Pharos University in Alexandria</h3><p class="m">Teaching, supervising MSc and PhD students, and academic leadership.</p></li>
-    <li><span class="y">Aug 2024 – Mar 2025, Oct 2025 – now</span><h3>Acting Vice Dean for Graduate Studies and Research, PUA</h3><p class="m">Builds on a year as assistant to the Vice Dean and a seat on the university council for graduate studies.</p></li>
-    <li><span class="y">2017 – 2022</span><h3>Assistant Professor, Tanta University</h3></li>
-    <li><span class="y">2010 – 2017</span><h3>Researcher, PSATRI and KACST-TIC, King Saud University</h3><p class="m">Funded projects in optical communications, 5G at 60 GHz and photonic radar. PhD completed in 2017.</p></li>
-    <li><span class="y">2013</span><h3>Visiting researcher, Keysight Technologies, Böblingen</h3><p class="m">Digital Photonic Test Division, three months.</p></li>
-    <li><span class="y">2001 – 2010</span><h3>Demonstrator, then Teaching Assistant, Tanta University</h3><p class="m">BSc first in class (2001), MSc on thulium-doped fibre amplifiers (2006).</p></li>
-  </ol>
-</div></section>
+<section class="tab" id="research">
+<h2>Research interests</h2>
+<p class="m">Tap a topic to move the spectrum explorer on the About tab to where it lives.</p>
+<div id="rmap"></div>
+<h2>Laboratory experience</h2>
+<ul class="p"><li>Managed optical and wireless communication laboratories at Tanta University and King Saud University.</li><li>Optical modulation analyser, vector signal analyser and network analyser; fibre characterisation and testbed development.</li><li>Tools: MATLAB, Python, C/C++, Verilog, VPI, OptiSystem, COMSOL, LabVIEW.</li></ul>
+<h2>Doctoral work</h2>
+<div class="card"><h3>Multiuser Access Air Interface for 5G Cellular Systems on the mmWave Frequencies</h3><p class="m s">King Saud University, 2012–2017. A 60 GHz indoor and outdoor channel model, a low-complexity multiple-access scheme, massive-array beamforming and an experimental testbed.</p></div>
+<h2>Service</h2>
+<ul class="p"><li>Reviewer: IEEE Photonics Journal, Optics Express, Optical Fiber Technology</li><li>Co-founder and editorial board member, Pharos Engineering Science Journal</li><li>TPC member, ITC-Egypt 2024 and 2025; General Secretary, ICNTSE-2024</li></ul>
+</section>
 
-<section><div class="w">
-  <h2>Selected publications</h2>
-  <div class="pub"><span class="v">IEEE Access, 2017</span><h3>Hybrid precoding-beamforming with a Hadamard RF codebook for mmWave large-scale MIMO</h3></div>
-  <div class="pub"><span class="v">IEEE Transactions on Antennas and Propagation, 2017</span><h3>Effects of solar radio emissions on 60 GHz path loss models</h3></div>
-  <div class="pub"><span class="v">IEEE Photonics Journal, 2016</span><h3>Proposed raised cosine few-mode fibre for dispersion management</h3></div>
-  <div class="pub"><span class="v">IEEE Access, 2019</span><h3>Modulation format identification in mode division multiplexed optical networks</h3></div>
-  <div class="pub"><span class="v">Optics Express, 2022</span><h3>Reconfigurable photonics-based mmWave signal aggregation for NOMA</h3></div>
-  <div class="pub"><span class="v">Photonics, 2023</span><h3>Survey of machine learning in low-cost non-coherent optical systems</h3></div>
-  <div class="pub"><span class="v">Scientific Reports, 2026</span><h3>SLM-based PAPR reduction for DCO-OFDM Li-Fi in healthcare monitoring</h3></div>
-</div></section>
+<section class="tab" id="projects">
+<h2>Funded research projects</h2>
+<p class="m">Nine projects funded through KACST, NPST, MAARIFAH, Lockheed Martin and King Saud University.</p>
+<div class="grid" id="prj"></div>
+</section>
 
-<section><div class="w two">
-  <div>
-    <h2>Leadership</h2>
-    <ul class="p">
-      <li>Co-founder and editorial board member, Pharos Engineering Science Journal</li>
-      <li>General Secretary, ICNTSE-2024 conference</li>
-      <li>Internal coordinator, NAQAAE accreditation visit (2024)</li>
-      <li>TPC member, ITC-Egypt 2024 and 2025</li>
-      <li>Reviewer for IEEE Photonics Journal, Optics Express and Optical Fiber Technology</li>
-    </ul>
-  </div>
-  <div>
-    <h2>Credentials and tools</h2>
-    <ul class="p">
-      <li>PhD, King Saud University (full scholarship, 2017)</li>
-      <li>Huawei HCIA-5G, HCIA-AI and Certified Academy Instructor</li>
-      <li>AWS Academic Staff Program in AI/ML, cloud and IoT</li>
-      <li>MATLAB, Python, C/C++, Verilog, VPI, OptiSystem, COMSOL</li>
-      <li>Optical modulation analyser, vector signal analyser, network analyser</li>
-    </ul>
-  </div>
-</div></section>
+<section class="tab" id="publications">
+<h2>Publications</h2>
+<p class="m">A curated selection of the 71 listed in my CV (50 journal, 21 conference). The 16 Pharos Engineering Science Journal papers on energy and vehicles are summarised in one entry. Full list on my <a href="https://tdb2.tanta.edu.eg/staff/eltaibee">Tanta page</a>.</p>
+<input type="search" id="q" placeholder="Search title, venue or year" aria-label="Search publications">
+<div class="chips" id="pf"></div><div id="pl"></div>
+</section>
 
-<section><div class="w">
-  <h2>Get in touch</h2>
-  <p>For research collaboration, graduate supervision or conference service.</p>
-  <div class="links">
-    <a href="https://www.linkedin.com/in/hussein-seleem-bb2a418/">LinkedIn</a>
-    <a href="https://github.com/Husseineltaibee">GitHub</a>
-    <a href="mailto:hussein.eltaibee@pua.edu.eg">hussein.eltaibee@pua.edu.eg</a>
-  </div>
-  <p class="m" style="margin-top:14px">ORCID 0000-0002-2936-5447 · Faculty of Engineering, Pharos University in Alexandria</p>
-</div></section>
-<footer class="w">Hussein El-Taibee Seleem</footer>
+<section class="tab" id="personal">
+<h2>Personal</h2>
+<div class="grid">
+<div class="card"><h3>Background</h3><p class="m s">Born in Zifta, Gharbia, Egypt. Egyptian. Languages: Arabic (native), English (fluent).</p></div>
+<div class="card"><h3>Education</h3><p class="m s">PhD, King Saud University (2017, full scholarship)<br>MSc, Tanta University (2006)<br>BSc, Tanta University (2001), first of more than 100</p></div>
+<div class="card"><h3>Certifications</h3><p class="m s">Huawei HCIA-5G, HCIA-AI, HCIA-Cloud, Certified Academy Instructor; Oracle OCA and OCP; AWS Academic Staff Program</p></div>
+<div class="card"><h3>Memberships</h3><p class="m s">Egyptian Engineering Syndicate (2001–present); IEEE and OSA (2009–2018)</p></div></div>
+<h2>Find me online</h2>
+<div class="links">
+<a href="https://www.linkedin.com/in/hussein-seleem-bb2a418/">LinkedIn</a><a href="https://github.com/Husseineltaibee">GitHub</a><a href="https://tdb2.tanta.edu.eg/staff/eltaibee">Tanta page</a><a href="https://x.com/eltaibee">X</a><a href="https://www.facebook.com/eltaibee">Facebook</a><a href="https://www.instagram.com/eltaibee/">Instagram</a></div>
+<h2>Contact</h2>
+<p><a href="mailto:eltaibee@mnu.edu.eg">eltaibee@mnu.edu.eg</a><br><a href="mailto:eltaibee@f-eng.tanta.edu.eg">eltaibee@f-eng.tanta.edu.eg</a><br><a href="mailto:husseintybee@gmail.com">husseintybee@gmail.com</a></p>
+<p class="m s">ORCID 0000-0002-2936-5447</p>
+</section>
+</main>
+<footer><div class="w">© Hussein El-Taibee Seleem</div></footer>
 
 <script>
-(function(){
-var cv=document.getElementById('cv'),x=cv.getContext('2d'),sl=document.getElementById('sl'),
-nm=document.getElementById('nm'),fr=document.getElementById('fr'),ds=document.getElementById('ds'),
-root=document.documentElement,p=0,t=0,W,H,dpr=1,rm=matchMedia('(prefers-reduced-motion: reduce)').matches;
-function size(){dpr=window.devicePixelRatio||1;W=cv.clientWidth;H=cv.clientHeight;cv.width=W*dpr;cv.height=H*dpr;x.setTransform(dpr,0,0,dpr,0,0)}
-function info(){
- var f=p/100;
- root.style.setProperty('--h',Math.round(200+f*130));
- if(p<35){nm.textContent='Optical fibre';fr.textContent=Math.round(193-f*60)+' THz';ds.textContent='Light carries terabits through glass. My work here shapes the fibre itself and the receivers that read it.'}
- else if(p<70){nm.textContent='Photonics meets microwave';fr.textContent=Math.round(Math.pow(10,14.3-f*3.3)/1e9)+' GHz';ds.textContent='Optical carriers generate and distribute radio signals, for radar and radio-over-fibre.'}
- else{nm.textContent='Millimetre-wave radio';fr.textContent='60 GHz';ds.textContent='Beams steered by large antenna arrays and tuned with signal processing and machine learning.'}
-}
-function draw(){
- if(!rm)t+=.02;
- x.clearRect(0,0,W,H);
- var cs=getComputedStyle(root),col=cs.getPropertyValue('--a').trim(),f=p/100,
- k1=(.09-f*.07),k2=k1*1.12,amp=H*(.2+f*.08),n=3;
- x.lineWidth=2;x.strokeStyle=col;
- for(var j=0;j<n;j++){
-  x.globalAlpha=1-j*.3;x.beginPath();
-  for(var i=0;i<=W;i+=2){
-   var env=1-Math.pow((i/W-.5)*1.6,2)*(1-f)*.5;
-   var y=H/2+Math.sin(i*k1*(1+j*.15)-t*(3+j))*amp*(j?0.6:1)*env*(1-f*.25*Math.sin(i*.01+t));
-   if(f>.5)y+=Math.sin(i*k2-t*2)*amp*.25*(f-.5)*2;
-   i?x.lineTo(i,y):x.moveTo(i,y)}
-  x.stroke()}
- x.globalAlpha=1;
- requestAnimationFrame(draw)}
-function set(v){p=+v;sl.value=p;info()}
-sl.addEventListener('input',function(){set(sl.value)});
-document.querySelectorAll('button.c').forEach(function(b){b.addEventListener('click',function(){
- var to=+b.dataset.p,from=p,s=null;
- if(rm){set(to);return}
- (function step(ts){s=s||ts;var r=Math.min((ts-s)/600,1);set(from+(to-from)*(1-Math.pow(1-r,3)));if(r<1)requestAnimationFrame(step)})(performance.now());
- cv.scrollIntoView({behavior:rm?'auto':'smooth',block:'center'})})});
-addEventListener('resize',size);size();info();draw();
-})();
-</script>
-</body>
-</html>
+var $=function(i){return document.getElementById(i)},root=document.documentElement;
+var T=[["about","About",200],["teaching","Teaching",235],["research","Research",270],["projects","Projects",305],["publications","Publications",330],["personal","Personal",170]];
+var C="2026–27|F|ELC251|Computer Architecture\n2026–27|F|ELC342|Communications (1)\n2026–27|F|ELC351|Data Structures & Algorithms\n2026–27|F|ELC440|Telephone Engineering\n2026–27|F|ELC233|Electromagnetic Fields (1)\n2026–27|F|ECE122|Solid State Electronics\n2026–27|F|ECE131|Signals and Systems\n2026–27|F|ECE341 & 284|Electromagnetic Fields\n2026–27|F|ECE345|Biomedical Instrumentation\n2026–27|F|ECE232|Analog Communication Systems\n2025–26|F|ELC251|Computer Architecture\n2025–26|F|ELC342|Communications (1)\n2025–26|F|ELC351|Data Structures & Algorithms\n2025–26|F|ELC440|Telephone Engineering\n2025–26|F|EE252|Communications Lab\n2025–26|F|EE342|Digital Signal Processing\n2025–26|F|EE350|Communication Systems\n2025–26|S|ELC152|Computers (2)\n2025–26|S|MPE203|Computer Apps in Mechanical Engineering\n2025–26|S|ELC432|Electronic Circuits Design\n2025–26|S|ELC444|Digital Signal Processing\n2025–26|S|ELE229|Digital Systems Design (Verilog)\n2025–26|F+S|EE400|Graduation Project\n2025–26|Year|ELC344|Digital Communication\n2024–25|F|—|Digital Communications (1)\n2024–25|F|—|Digital Signal Processing\n2024–25|S|—|Digital Communications (2)\n2024–25|S|—|Digital Integrated Circuits\n2024–25|Summer|—|Analog ICs\n2023–24|F|—|Digital Communications (1)\n2023–24|F|—|Digital Integrated Circuits\n2023–24|S|—|Digital Communications (2)\n2023–24|S|—|Wave Propagation & Transmission Media\n2023–24|S|—|Electronics Workshop";
+var inst={"2026–27":"MNU / Tanta","2025–26":"PUA","2024–25":"PUA","2023–24":"PUA"},SN={F:"Fall",S:"Spring","F+S":"Fall + Spring",Year:"Year-long",Summer:"Summer"};
+var cs={},o="";C.split("\n").forEach(function(l){var p=l.split("|");(cs[p[0]]=cs[p[0]]||[]).push(p)});
+Object.keys(cs).forEach(function(y){o+='<div class="yr"><h3>'+y+'</h3><span class="y">'+inst[y]+'</span></div><div class="tw"><table><tr><th>Semester</th><th>Code</th><th>Course</th><th>Level</th><th>Credit hrs</th></tr>';
+cs[y].forEach(function(p){var m=p[2].match(/\d/),L=m?"Level "+m[0]:"—";o+="<tr><td>"+SN[p[1]]+"</td><td>"+p[2]+"</td><td>"+p[3]+"</td><td>"+L+"</td><td>—</td></tr>"});
+if(y=="2026–27")o+='<tr><td>Spring</td><td colspan="4" class="m">Courses to be announced</td></tr>';o+="</table></div>"});
+$("courses").innerHTML=o;
+$("alsot").innerHTML="Integrated Optics (graduate)|Optical Fiber Communications|Information Theory|Antenna Design|Satellite Communications|Mobile Communications|Optoelectronics|Embedded Systems|Cloud Computing|Computer Networks|Analog IC Design|Digital IC Design|C++ Programming|Principles of Communications".split("|").map(function(x){return'<span class="chip">'+x+"</span>"}).join("");
+var S="Reham W. Abdel-Salam El-Okl|Integrated Microstrip Antennas and Filters for mmWave Systems|PhD · Jun 2026\nAmira M. Bassiouni|Computer-aided Diagnosis for Neurological Disease Staging|MSc · Jun 2025\nMina M. Aziz|Smart Healthcare Monitoring of Vital Signs|MSc · Dec 2024\nMarwa A. H. Mahfouz|High Capacity Optical Systems Based on Spatial Multiplexing|MSc · 2023\nMarwa S. I. Elsawy|Wireless Power Transfer in Medical Endoscopy Capsule|MSc · 2022\nRana K. S. Fathalla|Electronic Simulated Sensor for Fibre Bragg Grating Dispersion Compensation|MSc · 2022\nRadwa A. Salah|Automated Segmentation of 3D Thyroid Ultrasonography Images|MSc · 2022\nSamar I. Farghaly|MIMO Enhancement using Antenna Array Beamforming|PhD · Feb 2022\nNancy A. Alshaer|Free Space Optical Links using Different Modulation Techniques|PhD · Oct 2020\nHani M. Adam|Dispersion Management for SDM in Next Generation Optical Networks|MSc · Sep 2020\nAsmaa Sharaf El-Din|Li-Fi based Healthcare Monitoring System|PhD · in progress";
+$("sup").innerHTML+=S.split("\n").map(function(l){return"<tr><td>"+l.split("|").join("</td><td>")+"</td></tr>"}).join("");
+var R=[["Light in fibre",["Optical CDMA|0","Space division multiplexing|0","OAM and few-mode fibre design|0","Modulation format identification|0","Free-space optical links|6","Coherent and non-coherent receivers|10"]],["Where they meet",["Photonic-microwave integration|50","Radio over fibre|45","Photonics-based radar|40","Li-Fi and visible light|30"]],["Waves in air",["5G mmWave channel modelling|100","Massive MIMO and hybrid beamforming|100","FBMC / UFMC / OFDM|95","PAPR reduction|92","AI and ML for communications|85"]]];
+$("rmap").innerHTML=R.map(function(g){return"<h3>"+g[0]+'</h3><div class="chips">'+g[1].map(function(x){var p=x.split("|");return'<button class="chip" data-p="'+p[1]+'">'+p[0]+"</button>"}).join("")+"</div>"}).join("");
+var P="2021–22|Machine Learning in Low-Cost Non-Coherent Optical Systems|Ministry of Education, Saudi Arabia\n2020–21|Photonics-based Millimeter Wave Signal Aggregation|MAARIFAH / KACST\n2019–20|K-Band Centralized All-Optical Sensing Signal Distribution Network|MAARIFAH / KACST\n2018–19|PAPR Reduction in UFMC for 5G Cellular Systems|Deanship of Scientific Research, KSU\n2016–17|Photonics-based Multiband/Multifunction High-Resolution Radar|KACST / Lockheed Martin\n2015–17|Field Measurements and Propagation Models for mmWave 5G in Riyadh|NPST · SR 1,994,480\n2014–15|Design Platform of Novel Fibres for Space Division Multiplexing|KACST-TIC\n2012–14|Multi-format Optical Transmitter|PSATRI\n2010–12|Interference Cancellation Algorithms using OCDMA Technology|NPST · SR 1,995,000";
+$("prj").innerHTML=P.split("\n").map(function(l){var p=l.split("|");return'<div class="card"><span class="y">'+p[0]+"</span><h3>"+p[1]+'</h3><p class="m s">'+p[2]+"</p></div>"}).join("");
+var U="2026|J|Scientific Reports|SLM-based PAPR reduction for DCO-OFDM Li-Fi in healthcare monitoring\n2026|J|J. King Saud Univ. CIS (accepted)|Deep learning with PSO and hybrid loss for early Alzheimer's diagnosis\n2025|J|Springer book chapter|Towards next-generation OAM fibres: inverse raised cosine few-mode fibre\n2025|J|Springer book chapter|Inverse Gaussian fibres for OAM-MDM-WDM optical networks\n2025|J|EURASIP J. Wireless Commun. Netw.|Low SAR compact semicircular slot antennas for sub-6 GHz 5G\n2025|J|Mansoura Eng. J.|Optimized VGG16 for multiclass classification of Alzheimer's disease\n2024–25|J|Pharos Eng. Sci. J. (16 papers)|Co-authored studies on diesel power plants, wind, solar, geothermal and EV conversion\n2024|J|J. Eng. Research|Compact dual-band semicircular slot MIMO antenna for 5G sub-6 GHz\n2024|J|Pharos Eng. Sci. J.|Enhanced nRF24-based protocol for patient temperature monitoring\n2023|J|Photonics|Survey of machine learning in low-cost non-coherent optical systems\n2022|J|Optics Express|Reconfigurable photonics-based mmWave signal aggregation for NOMA\n2022|J|J. Eng. Research|DbSWPT: distance-based switch for wireless power transfer in capsule endoscopy\n2021|J|IEEE Access|Pencil and shaped beam synthesis with hybrid GA/l1 for massive MIMO\n2020|J|Electronics|PAPR reduction in UFMC for 5G cellular systems\n2020|J|IEEE Photonics J.|K-band centralized all-optical sensing signal distribution network\n2020|J|Optical Fiber Technology|mmWave switching for FBMC signals in radio over fibre networks\n2020|J|Optical Fiber Technology|Design of 12 OAM graded-index few-mode fibres for short-haul interconnect\n2019|J|IEEE Access|Modulation format identification in mode division multiplexed networks\n2019|J|IEEE Photonics J.|Iterative-SLM algorithm for PAPR reduction in 5G mobile fronthaul\n2019|J|Photonic Netw. Commun.|Photonics-based multi-band/multi-mode radar signal generation\n2018|J|J. Circuits, Syst. Comput.|Experimental PAPR reduction in OFDM using Partial-OSLM\n2018|J|IET Communications|Multiplicative PIC detection for OCDMA with non-negativity constraints\n2018|J|Optics Communications|Trenched raised cosine FMF for differential mode delay management\n2017|J|IEEE Trans. Antennas Propag.|Effects of solar radio emissions on 60 GHz path loss models\n2017|J|IEEE Access|Hybrid precoding-beamforming with Hadamard RF codebook for mmWave MIMO\n2016|J|IEEE Photonics J.|Proposed raised cosine FMF for dispersion management\n2014|J|IET Communications|Interference cancellation detector for asynchronous upstream OCDMA-PON\n2014|J|IET Communications|Penalised and doubly-penalised PIC/SIC multi-user detectors for OCDMA PON\n2012|J|IEEE Commun. Lett.|Projected parallel interference cancellation for asynchronous OCDMA-PON\n2024|C|ICTIS, Djelfa|Tunable DoG profile MDM fibres for cylindrical vector mode transmission\n2024|C|ICNTSE|Communication subsystem for a CubeSat\n2024|C|NRSC|mmWave large-scale MIMO with 1-bit sigma-delta ADCs\n2022|C|ITC-Egypt|Chromatic dispersion compensation with chirped fibre Bragg grating\n2022|C|IEEE DTS|Raised cosine multicore fibres for high-density SDM\n2021|C|SSD|Inverse Gaussian profile for OAM mode division multiplexing\n2020|C|J. Phys. Conf. Ser.|128 Gb/s optical QPSK over FSO under weather and pointing errors\n2019|C|NILES|DoG few-mode fibre with six LP modes and low differential mode delay\n2019|C|ICTON|Optimized beam size for ground-to-satellite optical links\n2018|C|IEEE ICC|mmWave sparse channel estimation for D2D using Hadamard RF codebook\n2016|C|IEEE ICC|Path loss channel models for 5G in Riyadh at 60 GHz\n2015|C|Springer CROWNCOM|Two-stage multiuser access in 5G using massive MIMO and beamforming\n2005|C|Workshop on Photonics|Thulium doped fibre amplifier in the S/S+ band";
+var pubs=U.split("\n").map(function(l){return l.split("|")}),ft="All";
+function rp(){var q=$("q").value.toLowerCase();$("pl").innerHTML=pubs.filter(function(p){return(ft=="All"||p[1]==ft[0])&&(p.join(" ")).toLowerCase().indexOf(q)>-1}).map(function(p){return'<div class="pub"><span class="y">'+p[0]+" · "+p[2]+"</span>"+p[3]+"</div>"}).join("")||'<p class="m">No match.</p>'}
+$("pf").innerHTML=["All","Journal","Conference"].map(function(f){return'<button class="chip'+(f=="All"?" on":"")+'">'+f+"</button>"}).join("");
+$("pf").onclick=function(e){if(e.target.tagName!="BUTTON")return;ft=e.target.textContent;[].forEach.call($("pf").children,function(b){b.classList.toggle("on",b==e.target)});rp()};
+$("q").oninput=rp;rp();
+T.forEach(function(t){var b=document.createElement("button");b.textContent=t[1];b.id="t-"+t[0];b.setAttribute("role","tab");b.onclick=function(){go(t[0],1)};$("tabs").appendChild(b)});
+var hue=200;function go(id,push){T.forEach(function(t){$(t[0]).classList.toggle("on",t[0]==id);$("t-"+t[0]).setAttribute("aria-selected",t[0]==id);if(t[0]==id&&id!="about")root.style.setProperty("--h",t[2])});if(id=="about")setP(p);if(push)history.replaceState(null,"","#"+id);scrollTo(0,0)}
+var cv=$("cv"),x=cv.getContext("2d"),sl=$("sl"),p=0,t=0,W,H,rm=matchMedia("(prefers-reduced-motion: reduce)").matches;
+function size(){var d=devicePixelRatio||1;W=cv.clientWidth;H=cv.clientHeight;cv.width=W*d;cv.height=H*d;x.setTransform(d,0,0,d,0,0)}
+function setP(v){p=+v;sl.value=p;var f=p/100;root.style.setProperty("--h",Math.round(200+f*130));
+ if(p<35){$("nm").textContent="Optical fibre";$("fr").textContent=Math.round(193-f*60)+" THz";$("ds").textContent="Light carries terabits through glass; I shape the fibre and the receivers."}
+ else if(p<70){$("nm").textContent="Photonics meets microwave";$("fr").textContent=Math.round(Math.pow(10,14.3-f*3.3)/1e9)+" GHz";$("ds").textContent="Optical carriers generate and distribute radio signals for radar and radio over fibre."}
+ else{$("nm").textContent="Millimetre-wave radio";$("fr").textContent="60 GHz";$("ds").textContent="Large antenna arrays steer beams, tuned with signal processing and machine learning."}}
+function draw(){if(!rm)t+=.02;if(W){x.clearRect(0,0,W,H);var f=p/100,k=.09-f*.07,a=H*(.2+f*.08);x.lineWidth=2;x.strokeStyle=getComputedStyle(root).getPropertyValue("--a");
+ for(var j=0;j<3;j++){x.globalAlpha=1-j*.3;x.beginPath();for(var i=0;i<=W;i+=2){var e=1-Math.pow((i/W-.5)*1.6,2)*(1-f)*.5,y=H/2+Math.sin(i*k*(1+j*.15)-t*(3+j))*a*(j?.6:1)*e;if(f>.5)y+=Math.sin(i*k*1.12-t*2)*a*.25*(f-.5)*2;i?x.lineTo(i,y):x.moveTo(i,y)}x.stroke()}x.globalAlpha=1}requestAnimationFrame(draw)}
+sl.oninput=function(){setP(sl.value)};
+$("rmap").onclick=function(e){var b=e.target.closest("button");if(!b)return;p=+b.dataset.p;go("about",1);setP(p)};
+addEventListener("resize",size);var h=location.hash.slice(1);go(T.some(function(t){return t[0]==h})?h:"about");size();setP(0);draw();
+</script></body></html>
